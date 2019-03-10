@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello World</title>
+  <title>TriviaTime</title>
   <!-- CSS Links -->
   <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css">
   <link rel="stylesheet" ype="text/css" media="screen"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -15,26 +15,57 @@
 <body> <!-- $(document).ready(function() {}); -->
 
 <head>Totally Trivial Trivia</head>
-<div class="screen">
+
+
+<div class="container">
+
+    <h1 id="topText">Games, etc. Trivia</h1>
   
-  <button type="button" class="btn btn-primary btn-lg">Large button</button>
+    <div class="jumbotron text-center" id="gameScreen">
+      <h1 id="start" >START</h1>
+    </div>
+  
+  
+
+  <div class="card">
+    <button type="button" class="btn btn-primary btn-lg" id="start-game">Pick # of questions</button> <hr>
+
+    <div class="data"></div>
+
+
+
+
+  </div>
+
+
 
 
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
 - array of questions   
 - array of a/b/c/d answers
 - Timer that counts down and freezes the game with a you lose when a loss occurs
 -- try to use https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple to get questions 
-<!-- congratulae user if they get an answer corrext -->
-
-
-
-
-
-
-
-![Basic](Images/1-basic.jpg)
+congratulae user if they get an answer corrext -->
+<!-- ![Basic](Images/1-basic.jpg)
 
 **[Click Here to Watch the Demo](https://youtu.be/fBIj8YsA9dk)**.
 
@@ -101,25 +132,7 @@ After completing the homework please add the piece to your portfolio. Make sure 
 
 *If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
 
-  **Good Luck!**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Timers, jquery, buttons, score
+  **Good Luck!** -->
 
 
 
@@ -129,7 +142,7 @@ Timers, jquery, buttons, score
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="./assets/js/script.js"></script>
+  <script src="./assets/javascript/app.js"></script>
 </body>
 
 </html>

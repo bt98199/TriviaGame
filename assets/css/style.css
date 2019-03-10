@@ -1,0 +1,31 @@
+
+
+h1,
+h2,
+h3 {
+	background-color: green;
+	color: white;
+	padding: 10px;
+}
+
+.answer,
+#timer {
+	font-weight: 900;
+}
+
+#start {
+	color: black;
+}
+
+.choices {
+	text-align: center;
+	border: groove 2px black;
+	border-radius: 5%;
+	margin: 0 35%;
+}
+
+.choices:hover {
+	background-color: red;
+	color: white;
+}
+
