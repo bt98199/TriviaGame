@@ -1,31 +1,26 @@
-
-
-h1,
-h2,
-h3 {
-	background-color: green;
-	color: white;
-	padding: 10px;
-}
-
-.answer,
-#timer {
-	font-weight: 900;
-}
-
-#start {
-	color: black;
+header {
+	font-size: 3em;
+	color: darkgrey;
+	text-align: center;
 }
 
 .choices {
-	text-align: center;
-	border: groove 2px black;
+	display: flex;
+	flex-direction: row;
 	border-radius: 5%;
 	margin: 0 35%;
 }
 
-.choices:hover {
-	background-color: red;
-	color: white;
+.data-y {
+	background-color: lightgreen;
+	border: 1px solid black;
 }
 
+.data-n {
+	background-color: lightcoral;
+	border: 1px solid black;
+}
+.answer,
+#timer {
+	font-weight: 900;
+}
